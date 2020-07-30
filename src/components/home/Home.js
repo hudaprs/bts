@@ -1,8 +1,7 @@
 import React, { useEffect } from "react"
 
 // Components
-import HomeLayout from "../layouts/HomeLayout"
-import Showcase from "./Showcase"
+import MainLayout from "../layouts/MainLayout"
 import Services from "./Services"
 import TechExpertise from "./TechExpertise"
 import Companies from "./Companies"
@@ -14,13 +13,12 @@ const Home = () => {
   }, [])
 
   return (
-    <HomeLayout>
-      <Showcase />
+    <MainLayout>
       <Services />
       <TechExpertise />
       <Companies />
       <Blog />
-    </HomeLayout>
+    </MainLayout>
   )
 }
 

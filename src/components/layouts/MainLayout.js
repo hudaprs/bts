@@ -1,11 +1,11 @@
 import React, { Fragment } from "react"
-import Navbar from "../inc/home/Navbar"
+import Hero from "../layouts/Hero"
 import Footer from "../inc/home/Footer"
 
 const HomeLayout = ({ children }) => {
   return (
     <Fragment>
-      <Navbar />
+      <Hero />
       {children}
       <Footer />
     </Fragment>

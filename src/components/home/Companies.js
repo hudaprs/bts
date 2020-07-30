@@ -5,7 +5,7 @@ const Companies = () => {
     <section id='companies' className='py-4'>
       <div className='container'>
         <div className='companies-content'>
-          <p className='m-heading text-center'>
+          <p className='m-heading text-center mb-4'>
             Companies We’ve <strong>Helped</strong>
           </p>
 
@@ -42,7 +42,7 @@ const Companies = () => {
           </div>
 
           {/* Companies Paragraph */}
-          <p className='companies-text text-justify mb-2'>
+          <p className='lead text-justify mb-2'>
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

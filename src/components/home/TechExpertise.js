@@ -6,10 +6,22 @@ const TechExpertise = () => {
       <div className='container'>
         <div className='tech-expertise-content'>
           <div>
-            <p className='m-heading mb-4'>
-              Tech <strong>Expertise</strong>
-            </p>
-            <p className='showcase-text text-justify mb-2'>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+              }}
+            >
+              <h3 className='m-heading mb-4' style={{ width: "100%" }}>
+                Tech <strong>Expertise</strong>
+              </h3>
+              <div
+                className='line'
+                style={{ width: "70%", marginBottom: "30px" }}
+              ></div>
+            </div>
+            <p className='lead text-justify mb-2'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

@@ -6,7 +6,7 @@ const Blog = () => {
       <div className='container'>
         <div className='blog-header mb-2'>
           <h3 className='header-title m-heading'>Our Latest Blog Post</h3>
-          <div className='blog-line'></div>
+          <div className='line'></div>
         </div>
         <div className='blog-content'>
           <div className='blog-item'>
@@ -18,7 +18,7 @@ const Blog = () => {
             <h6 className='blog-title text-justify mb-2'>
               Aplikasi ERP Pada Rumah Sakit
             </h6>
-            <p className='blog-text text-justify mb-2'>
+            <p className='lead text-justify mb-2'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
@@ -36,7 +36,7 @@ const Blog = () => {
             <h6 className='blog-title text-justify mb-2'>
               Aplikasi ERP Pada Rumah Sakit
             </h6>
-            <p className='blog-text text-justify mb-2'>
+            <p className='lead text-justify mb-2'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
@@ -54,7 +54,7 @@ const Blog = () => {
             <h6 className='blog-title text-justify mb-2'>
               Aplikasi ERP Pada Rumah Sakit
             </h6>
-            <p className='blog-text text-justify mb-2'>
+            <p className='lead text-justify mb-2'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>

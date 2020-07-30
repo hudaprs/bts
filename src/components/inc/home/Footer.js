@@ -16,14 +16,14 @@ const Footer = () => {
             <div className='mb-2'>
               <h3 className='footer-title mb-1'>Reach Us</h3>
               <p style={{ fontSize: "18px" }}>PT. INTERSOLUSI TEKNOLOGI ASIA</p>
-              <p className='footer-text'>
+              <p className='lead'>
                 Jl. Dangdeur Indah III No.5 - 40163 Bandung, Indonesia
               </p>
             </div>
             <div>
               <p className='footer-title mb-1'>Contact Us</p>
-              <p className='footer-text'>(+62 22) 6614726</p>
-              <p className='footer-text'>info@bts.id</p>
+              <p className='lead'>(+62 22) 6614726</p>
+              <p className='lead'>info@bts.id</p>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ const Footer = () => {
                 <h4 className='footer-blog-title'>
                   Aplikasi ERP Pada Rumah Sakit
                 </h4>
-                <p className='footer-blog-date mt-2'>20 March 2020</p>
+                <p className='lead mt-2'>20 March 2020</p>
               </div>
             </div>
             <div className='footer-blog-item'>
@@ -51,7 +51,7 @@ const Footer = () => {
               />
               <div>
                 <h4>Aplikasi ERP Pada Rumah Sakit</h4>
-                <p className='footer blog-date mt-2'>20 March 2020</p>
+                <p className='lead mt-2'>20 March 2020</p>
               </div>
             </div>
             <div className='footer-blog-item'>
@@ -62,7 +62,7 @@ const Footer = () => {
               />
               <div>
                 <h4>Aplikasi ERP Pada Rumah Sakit</h4>
-                <p className='footer-blog-date mt-2'>20 March 2020</p>
+                <p className='lead mt-2'>20 March 2020</p>
               </div>
             </div>
           </div>
