@@ -1,7 +1,119 @@
 import React from "react"
 
 const Footer = () => {
-  return <div>Footer</div>
+  return (
+    <footer id='footer' className='py-4'>
+      <div className='container'>
+        <div className='footer-logo mb-2'>
+          <img
+            src={require("../../../assets/img/Footer/BTSWhite.png")}
+            alt='BTSWhite'
+          />
+        </div>
+        <div className='footer-content'>
+          {/* Reach US & Contact US */}
+          <div>
+            <div className='mb-2'>
+              <h3 className='footer-title mb-1'>Reach Us</h3>
+              <p style={{ fontSize: "18px" }}>PT. INTERSOLUSI TEKNOLOGI ASIA</p>
+              <p className='footer-text'>
+                Jl. Dangdeur Indah III No.5 - 40163 Bandung, Indonesia
+              </p>
+            </div>
+            <div>
+              <p className='footer-title mb-1'>Contact Us</p>
+              <p className='footer-text'>(+62 22) 6614726</p>
+              <p className='footer-text'>info@bts.id</p>
+            </div>
+          </div>
+
+          {/* Blog Post */}
+          <div className='footer-blog'>
+            <h3 className='footer-title mb-1'>Blog Post</h3>
+            <div className='footer-blog-item'>
+              <img
+                src={require("../../../assets/img/Footer/Footer1.png")}
+                alt='Footer1'
+                className='footer-blog-img'
+              />
+              <div>
+                <h4 className='footer-blog-title'>
+                  Aplikasi ERP Pada Rumah Sakit
+                </h4>
+                <p>20 March 2020</p>
+              </div>
+            </div>
+            <div className='footer-blog-item'>
+              <img
+                src={require("../../../assets/img/Footer/Footer2.png")}
+                alt='Footer2'
+                className='footer-blog-img'
+              />
+              <div>
+                <h4>Aplikasi ERP Pada Rumah Sakit</h4>
+                <p className='footer-blog-date'>20 March 2020</p>
+              </div>
+            </div>
+            <div className='footer-blog-item'>
+              <img
+                src={require("../../../assets/img/Footer/Footer3.png")}
+                alt='Footer3'
+                className='footer-blog-img'
+              />
+              <div>
+                <h4>Aplikasi ERP Pada Rumah Sakit</h4>
+                <p className='footer-blog-date'>20 March 2020</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className='footer-title mb-1'>News Letter</h3>
+            <form>
+              <div className='form-group'>
+                <input
+                  type='text'
+                  className='footer-input'
+                  placeholder='Your email address'
+                />
+                <button
+                  type='button'
+                  className='btn btn-md btn-primary'
+                  style={{
+                    position: "absolute",
+                    right: 130,
+                    marginTop: "5px"
+                  }}
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div className='footer-line' />
+
+        <div className='footer-info mt-1'>
+          <p className='footer-info-text'>
+            &copy; PT INTERSOLUSI TEKNOLOGI ASIA 2020
+          </p>
+          <div className='socials'>
+            <img
+              src={require("../../../assets/img/Footer/Facebook.png")}
+              alt='Facebook'
+              style={{ marginRight: "15px" }}
+            />
+            <img
+              src={require("../../../assets/img/Footer/LinkedIn.png")}
+              alt='LinkedIN'
+              n
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
 }
 
 export default Footer

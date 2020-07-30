@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="164px" height="145px" viewBox="0 0 164 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic-cloud</title>
+    <defs>
+        <rect id="path-1" x="9.26436782" y="23.862069" width="44.5977011" height="24.3678161" rx="12.183908"></rect>
+        <filter x="-211.9%" y="-338.6%" width="523.8%" height="875.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="29.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0.037675507%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#ED1C24" offset="0%"></stop>
+            <stop stop-color="#771F2E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#656666" offset="0%"></stop>
+            <stop stop-color="#353636" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#C7C7C7" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#D9434A" offset="0%"></stop>
+            <stop stop-color="#B22024" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#CB3C45" offset="0%"></stop>
+            <stop stop-color="#9B1C21" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#D9434A" offset="0%"></stop>
+            <stop stop-color="#B22024" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#C7C7C7" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-109.000000, -1158.000000)" id="ic-cloud">
+            <g transform="translate(150.000000, 1170.000000)" id="icon_cloud">
+                <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="80" height="80"></rect>
+                <g id="icon-03" transform="translate(9.586207, 12.919540)">
+                    <g id="Group" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.17647059">
+                        <circle id="Oval" cx="1.68183908" cy="5.35172414" r="1.59448276"></circle>
+                        <circle id="Oval" cx="61.3342529" cy="40.7742529" r="1.59448276"></circle>
+                        <polygon id="Path" points="55.737931 1.13103448 54.7687356 1.6937931 53.7995402 2.25655172 53.7995402 1.13103448 53.7995402 0.00551724138 54.7687356 0.568275862"></polygon>
+                        <g transform="translate(4.151724, 53.029885)" id="Path">
+                            <line x1="3.28275862" y1="1.53195402" x2="0.218850575" y2="1.53195402"></line>
+                            <line x1="1.7508046" y1="0" x2="1.7508046" y2="3.06390805"></line>
+                        </g>
+                    </g>
+                    <g id="Rectangle" fill-rule="nonzero" fill="black" fill-opacity="1">
+                        <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group" transform="translate(6.965517, 13.324138)">
+                        <path d="M46.8965517,19.4151724 C46.8965517,23.7921839 43.3636782,27.3250575 39.017931,27.3250575 L14.6942529,27.3250575 C10.3485057,27.3250575 6.81563218,23.7921839 6.81563218,19.4151724 C6.81563218,15.4758621 9.69195402,12.1931034 13.4436782,11.5990805 C13.3811494,11.3177011 13.3811494,11.0363218 13.3811494,10.7549425 C13.3811494,7.97241379 15.6009195,5.72137931 18.3521839,5.72137931 C19.5714943,5.72137931 20.6970115,6.15908046 21.5724138,6.90942529 C23.1043678,3.40781609 25.1052874,0.187586207 30.6703448,0.187586207 C37.4234483,0.187586207 40.6124138,5.44 40.6124138,10.9737931 C40.6124138,11.1926437 40.6124138,11.4427586 40.5811494,11.6616092 C44.2078161,12.3806897 46.8965517,15.5696552 46.8965517,19.4151724 Z" id="MobileMe_1_" fill="url(#linearGradient-3)"></path>
+                        <g transform="translate(0.000000, 0.312644)">
+                            <path d="M16.8514943,1.96965517 L16.8514943,7.90988506 C16.8514943,9.62942529 16.5075862,11.2864368 15.8197701,12.8496552 C14.4441379,16.1011494 11.7554023,18.6022989 8.41011494,19.7903448 C3.37655172,18.0082759 0,13.256092 0,7.90988506 L0,1.96965517 L0.156321839,2.03218391 C2.8137931,2.90758621 5.75264368,2.34482759 7.87862069,0.468965517 L8.44137931,0 L9.00413793,0.468965517 C11.1301149,2.31356322 14.0689655,2.90758621 16.7264368,2.03218391 L16.8514943,1.96965517 Z" id="Path" fill="url(#linearGradient-4)"></path>
+                            <g transform="translate(4.377011, 4.689655)">
+                                <path d="M7.34712644,5.06482759 L0.781609195,5.06482759 L0.781609195,3.37655172 C0.781609195,1.56321839 2.25103448,0.0937931034 4.06436782,0.0937931034 C5.87770115,0.0937931034 7.34712644,1.56321839 7.34712644,3.37655172 L7.34712644,5.06482759 L7.34712644,5.06482759 Z M1.87586207,3.97057471 L6.28413793,3.97057471 L6.28413793,3.37655172 C6.28413793,2.15724138 5.28367816,1.18804598 4.09563218,1.18804598 C2.87632184,1.18804598 1.90712644,2.18850575 1.90712644,3.37655172 L1.90712644,3.97057471 L1.87586207,3.97057471 Z" id="Shape" fill="url(#linearGradient-5)" fill-rule="nonzero"></path>
+                                <path d="M7.03448276,10.3172414 L1.06298851,10.3172414 C0.71908046,10.3172414 0.406436782,10.0358621 0.406436782,9.66068966 L0.406436782,4.78344828 C0.406436782,4.43954023 0.687816092,4.12689655 1.06298851,4.12689655 L7.03448276,4.12689655 C7.3783908,4.12689655 7.69103448,4.40827586 7.69103448,4.78344828 L7.69103448,9.66068966 C7.69103448,10.0358621 7.3783908,10.3172414 7.03448276,10.3172414 Z" id="Path" fill="url(#linearGradient-6)"></path>
+                                <g transform="translate(0.312644, 6.252874)" fill="url(#linearGradient-7)" id="Rectangle">
+                                    <rect x="0.0937931034" y="0.0312643678" width="7.25333333" height="1"></rect>
+                                    <rect x="0.0937931034" y="1.00045977" width="7.25333333" height="1"></rect>
+                                    <rect x="0.0937931034" y="1.9383908" width="7.25333333" height="1"></rect>
+                                    <rect x="0.0937931034" y="2.90758621" width="7.25333333" height="1"></rect>
+                                </g>
+                                <path d="M7.40965517,5.75264368 L0.687816092,5.75264368 C0.406436782,5.75264368 0.156321839,5.50252874 0.156321839,5.22114943 L0.156321839,4.18942529 C0.156321839,3.90804598 0.406436782,3.65793103 0.687816092,3.65793103 L7.40965517,3.65793103 C7.69103448,3.65793103 7.94114943,3.90804598 7.94114943,4.18942529 L7.94114943,5.22114943 C7.94114943,5.50252874 7.69103448,5.75264368 7.40965517,5.75264368 Z" id="Path" fill="url(#linearGradient-8)"></path>
+                                <path d="M4.93977011,7.22206897 C4.93977011,6.72183908 4.53333333,6.3154023 4.03310345,6.3154023 C3.53287356,6.3154023 3.12643678,6.72183908 3.12643678,7.22206897 C3.12643678,7.56597701 3.31402299,7.84735632 3.56413793,8.00367816 L3.56413793,9.06666667 C3.56413793,9.31678161 3.75172414,9.50436782 4.00183908,9.50436782 C4.25195402,9.50436782 4.43954023,9.31678161 4.43954023,9.06666667 L4.43954023,8.00367816 C4.78344828,7.84735632 4.93977011,7.56597701 4.93977011,7.22206897 Z" id="Path" fill="url(#linearGradient-9)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
