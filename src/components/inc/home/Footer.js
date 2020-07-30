@@ -104,7 +104,6 @@ const Footer = () => {
             <img
               src={require("../../../assets/img/Footer/LinkedIn.png")}
               alt='LinkedIN'
-              n
             />
           </div>
         </div>

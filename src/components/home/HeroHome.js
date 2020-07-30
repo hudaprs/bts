@@ -1,14 +1,12 @@
 import React from "react"
-import Navbar from "../inc/home/Navbar"
 import HomeShowcaseImage from "../../assets/img/Home/Showcase.png"
 
-const Hero = () => {
+const HeroHome = () => {
   return (
     <header style={styles.hero} className='hero'>
-      <Navbar />
       <div className='content'>
         <div className='container'>
-          <div className='top-border'></div>
+          <div className='border'></div>
           <p className='l-heading mb-3'>
             System <strong>Integrator</strong>
           </p>
@@ -79,4 +77,4 @@ const styles = {
   }
 }
 
-export default Hero
+export default HeroHome

@@ -1,15 +1,15 @@
 import React, { Fragment } from "react"
-import Hero from "../layouts/Hero"
+import Navbar from "../inc/home/Navbar"
 import Footer from "../inc/home/Footer"
 
-const HomeLayout = ({ children }) => {
+const MainLayout = ({ children, location }) => {
   return (
     <Fragment>
-      <Hero />
+      <Navbar />
       {children}
       <Footer />
     </Fragment>
   )
 }
 
-export default HomeLayout
+export default MainLayout

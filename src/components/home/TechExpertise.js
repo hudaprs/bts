@@ -4,7 +4,7 @@ const TechExpertise = () => {
   return (
     <section id='tech-expertise' className='mb-4'>
       <div className='container'>
-        <div className='tech-expertise-content'>
+        <div className='grid-col-2'>
           <div>
             <div
               style={{
@@ -52,7 +52,7 @@ const TechExpertise = () => {
             <img
               src={require("../../assets/img/Home/TechExpertise/1.png")}
               alt='Tech Expertise'
-              className='text-expertise-img'
+              className='common-img'
             />
           </div>
         </div>

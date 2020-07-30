@@ -1,24 +1,25 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
     <div id='navbar'>
       <div className='container'>
         <div className='navbar-container'>
-          <div className='navbar-logo'>
+          <Link to='/' className='navbar-logo'>
             <img
               src={require("../../../assets/img/Navbar/NavbarLogo.png")}
               alt='NavbarLogo'
               style={{ width: "120px", height: "36px" }}
             />
-          </div>
+          </Link>
 
           <ul className='nav-item'>
             <li>
               <a href='#!'>Services</a>
             </li>
             <li>
-              <a href='#!'>Industries</a>
+              <Link to='/industries'>Industries</Link>
             </li>
             <li>
               <a href='#!'>Portfolio</a>
