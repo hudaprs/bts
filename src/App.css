@@ -380,7 +380,7 @@ ul {
 #companies .companies-list img {
   width: 129px;
   height: 148px;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
 #companies .companies-text {
@@ -509,8 +509,9 @@ ul {
   display: flex;
 }
 
-#footer .footer-blog-item .footer-blog-title {
-  align-self: flex-end;
+#footer .footer-blog-date {
+  font-family: "Aller-Regular";
+  font-size: 18px;
 }
 
 #footer .footer-input {
@@ -531,6 +532,10 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+#footer .footer-news-letter-container {
+  width: 100%;
 }
 
 #footer .footer-info .footer-info-text {

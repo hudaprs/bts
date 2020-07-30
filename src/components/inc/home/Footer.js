@@ -40,7 +40,7 @@ const Footer = () => {
                 <h4 className='footer-blog-title'>
                   Aplikasi ERP Pada Rumah Sakit
                 </h4>
-                <p>20 March 2020</p>
+                <p className='footer-blog-date mt-2'>20 March 2020</p>
               </div>
             </div>
             <div className='footer-blog-item'>
@@ -51,7 +51,7 @@ const Footer = () => {
               />
               <div>
                 <h4>Aplikasi ERP Pada Rumah Sakit</h4>
-                <p className='footer-blog-date'>20 March 2020</p>
+                <p className='footer blog-date mt-2'>20 March 2020</p>
               </div>
             </div>
             <div className='footer-blog-item'>
@@ -62,7 +62,7 @@ const Footer = () => {
               />
               <div>
                 <h4>Aplikasi ERP Pada Rumah Sakit</h4>
-                <p className='footer-blog-date'>20 March 2020</p>
+                <p className='footer-blog-date mt-2'>20 March 2020</p>
               </div>
             </div>
           </div>
@@ -70,23 +70,20 @@ const Footer = () => {
           <div>
             <h3 className='footer-title mb-1'>News Letter</h3>
             <form>
-              <div className='form-group'>
+              <div style={{ width: "100%" }}>
                 <input
                   type='text'
                   className='footer-input'
                   placeholder='Your email address'
                 />
-                <button
-                  type='button'
+                <input
+                  type='submit'
                   className='btn btn-md btn-primary'
+                  value='Subscribe'
                   style={{
-                    position: "absolute",
-                    right: 130,
-                    marginTop: "5px"
+                    marginLeft: "-150px"
                   }}
-                >
-                  Subscribe
-                </button>
+                />
               </div>
             </form>
           </div>

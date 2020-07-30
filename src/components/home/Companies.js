@@ -20,6 +20,10 @@ const Companies = () => {
               alt='ITM'
             />
             <img
+              src={require("../../assets/img/Home/Companies/BCA.png")}
+              alt='BCA'
+            />
+            <img
               src={require("../../assets/img/Home/Companies/Blanja.png")}
               alt='Blanja'
             />
