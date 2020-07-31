@@ -3,7 +3,7 @@ import Navbar from "../inc/home/Navbar"
 import Footer from "../inc/home/Footer"
 
 const MainLayout = ({ children, location }) => {
-  return (
+	return (
     <Fragment>
       <Navbar />
       {children}

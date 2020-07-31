@@ -16,7 +16,7 @@ const Navbar = () => {
 
           <ul className='nav-item'>
             <li>
-              <a href='#!'>Services</a>
+              <Link to='/services'>Services</Link>
             </li>
             <li>
               <Link to='/industries'>Industries</Link>

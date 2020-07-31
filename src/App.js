@@ -5,6 +5,7 @@ import "./assets/styles/App.css"
 // Components
 import Home from "./components/home/Home"
 import Industries from "./components/industry/Industries"
+import Service from "./components/service/Service"
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/industries' component={Industries} />
+        <Route exact path='/services' component={Service} />
       </Switch>
     </Router>
   )

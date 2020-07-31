@@ -10,7 +10,7 @@ import Blog from "./Blog"
 
 const Home = ({ location }) => {
   useEffect(() => {
-    document.title = "BTS - Home"
+    document.title = "BTS.id - Home"
   }, [])
 
   return (

@@ -1,6 +1,6 @@
 /* Container */
 .container {
-  padding: 0 30px;
+  padding: 0 20px;
   margin: 0 auto;
   max-width: 1100px;
   overflow: hidden;
@@ -71,6 +71,7 @@
 .py-3 {
   padding: 30px 0;
 }
+
 .py-4 {
   padding: 40px 0;
 }
@@ -111,7 +112,7 @@
   color: var(--light-color);
 }
 
-.btn:hover {
+.btn-primary:hover {
   opacity: 0.8;
 }
 
@@ -145,7 +146,7 @@
 .lead {
   font-family: "Aller-Regular";
   font-weight: normal;
-  font-size: 18;
+  font-size: 18px;
   line-height: 2;
 }
 
@@ -153,5 +154,30 @@
 .common-img {
   width: 573px;
   height: 396px;
+  border-radius: 4px;
+}
+
+/* Border */
+.border-horizontal {
+  display: block;
+  width: 15%;
+  border-color: #fff;
+  border-width: 3px;
+  border-style: solid;
+  margin-bottom: 30px;
+}
+
+.border-vertical {
+  height: 12%;
+  border-color: #fff;
+  border-width: 3px;
+  border-style: solid;
+  margin-bottom: 30px;
+}
+
+/* Box */
+.box {
+  padding: 20px 30px;
+  background-color: #171717;
   border-radius: 4px;
 }

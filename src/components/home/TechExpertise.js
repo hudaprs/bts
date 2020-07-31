@@ -2,14 +2,14 @@ import React from "react"
 
 const TechExpertise = () => {
   return (
-    <section id='tech-expertise' className='mb-4'>
+    <section id='tech-expertise' className='py-4'>
       <div className='container'>
         <div className='grid-col-2'>
           <div>
             <div
+              className='tech-expertise-header'
               style={{
                 display: "flex",
-                justifyContent: "center",
                 alignItems: "center"
               }}
             >
@@ -18,7 +18,7 @@ const TechExpertise = () => {
               </h3>
               <div
                 className='line'
-                style={{ width: "70%", marginBottom: "30px" }}
+                style={{ width: "60%", marginBottom: "30px" }}
               ></div>
             </div>
             <p className='lead text-justify mb-2'>

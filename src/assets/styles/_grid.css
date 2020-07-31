@@ -2,5 +2,14 @@
 .grid-col-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 48px;
+}
+
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  grid-gap: 48px;
 }

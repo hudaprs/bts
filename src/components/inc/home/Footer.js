@@ -32,7 +32,7 @@ const Footer = () => {
             <h3 className='footer-title mb-1'>Blog Post</h3>
             <div className='footer-blog-item'>
               <img
-                src={require("../../../assets/img/Footer/Footer1.png")}
+                src={require("../../../assets/img/Home/Blog/Blog1.png")}
                 alt='Footer1'
                 className='footer-blog-img'
               />
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
             <div className='footer-blog-item'>
               <img
-                src={require("../../../assets/img/Footer/Footer2.png")}
+                src={require("../../../assets/img/Home/Blog/Blog2.png")}
                 alt='Footer2'
                 className='footer-blog-img'
               />
@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
             <div className='footer-blog-item'>
               <img
-                src={require("../../../assets/img/Footer/Footer3.png")}
+                src={require("../../../assets/img/Home/Blog/Blog3.png")}
                 alt='Footer3'
                 className='footer-blog-img'
               />
@@ -103,7 +103,7 @@ const Footer = () => {
             />
             <img
               src={require("../../../assets/img/Footer/LinkedIn.png")}
-              alt='LinkedIN'
+              alt='LinkedIn'
             />
           </div>
         </div>

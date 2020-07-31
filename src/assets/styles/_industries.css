@@ -1,0 +1,24 @@
+/* Industry Hero */
+
+
+/* What We DO */
+#what-we-do .menu-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  grid-gap: 20px;
+}
+
+#what-we-do .menu-list .menu-item a {
+  font-family: "Aller-Regular";
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+#what-we-do .menu-list .active {
+  padding: 20px 0;
+  border-bottom: 4px var(--primary-color) solid;
+}

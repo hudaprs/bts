@@ -1,0 +1,172 @@
+/* Iphone 5 */
+@media (max-width: 320px) {
+  #navbar {
+    display: none;
+  }
+
+  .hero .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero .content .border-horizontal {
+    display: none;
+  }
+
+  .hero .content #home-text {
+    display: none;
+  }
+
+  .hero .content .btn {
+    display: none;
+  }
+
+  #scroll-down {
+    display: none;
+  }
+}
+
+/* 768px */
+@media (max-width:768px) {
+  .m-heading {
+    font-size: 36px;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  .grid-col-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hero .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero .content .border-horizontal {
+    display: none;
+  }
+
+  .hero .content .text {
+    display: none;
+  }
+
+  .hero .content .btn-mobile {
+    /*align-items: center;*/
+    justify-content: center;
+    margin-left: 45px;
+  }
+
+  #scroll-down {
+    display: none;
+  }
+
+  /* Services */
+  #services .services-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Tech Expertise */
+  #tech-expertise .common-img {
+    display: none;
+  }
+
+  #tech-expertise .tech-expertise-header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #tech-expertise .lead {
+    display: none;
+  }
+
+  #tech-expertise .tech-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #tech-expertise .tech-list img {
+    width: 218px;
+    height: 218px;
+  }
+
+  /* Companies */
+  #companies {
+    display: none;
+  }
+
+  /* Blog */
+  #blog .blog-header {
+    flex-direction: column;
+  }
+
+  #blog .blog-header .header-title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #blog .blog-content {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #blog .blog-item {
+    padding: 20px;
+    border-bottom: 1px var(--secondary-color) dotted;
+  }
+
+  #blog .blog-item:last-child {
+    border-bottom: none;
+  }
+
+  #blog .blog-img {
+    width: 178px;
+    height: 160px;
+  }
+
+  #blog .blog-title {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #blog .lead {
+    font-size: 12px;
+  }
+
+  /* Footer */
+  #footer .footer-logo {
+    text-align: center;
+  }
+
+  #footer .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #footer .footer-line {
+    margin-top: 20px;
+  }
+
+  #footer .footer-info {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  #footer .footer-info-text {
+    margin-bottom: 20px;
+  }
+}
