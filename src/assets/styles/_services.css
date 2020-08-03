@@ -1,0 +1,17 @@
+.box-featured-service {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.box-featured-service p {
+  width: 80%;
+}
+
+.featured-service-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 40px;
+}

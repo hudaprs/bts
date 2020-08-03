@@ -7,7 +7,7 @@ const Services = () => {
         <div className='services-content'>
           <div className='box-container item-1'>
             <img
-              src={require("../../assets/img/Home/Services/1.png")}
+              src={require("../../assets/img/Home/Services/Comperhensive.png")}
               alt='Logo1'
               className='service-logo'
             />
@@ -15,7 +15,7 @@ const Services = () => {
           </div>
           <div className='box-container item-2'>
             <img
-              src={require("../../assets/img/Home/Services/2.png")}
+              src={require("../../assets/img/Home/Services/Cloud.png")}
               alt='Logo5'
               className='service-logo'
             />
@@ -23,7 +23,7 @@ const Services = () => {
           </div>
           <div className='box-container item-3'>
             <img
-              src={require("../../assets/img/Home/Services/3.png")}
+              src={require("../../assets/img/Home/Services/Management.png")}
               alt='Logo3'
               className='service-logo'
             />
@@ -41,7 +41,7 @@ const Services = () => {
           </div>
           <div className='box-container item-4'>
             <img
-              src={require("../../assets/img/Home/Services/4.png")}
+              src={require("../../assets/img/Home/Services/Development.png")}
               alt='Logo4'
               className='service-logo'
             />
@@ -49,7 +49,7 @@ const Services = () => {
           </div>
           <div className='box-container item-5'>
             <img
-              src={require("../../assets/img/Home/Services/5.png")}
+              src={require("../../assets/img/Home/Services/Data.png")}
               alt='Logo5'
               className='service-logo'
             />
@@ -57,7 +57,7 @@ const Services = () => {
           </div>
           <div className='box-container item-6'>
             <img
-              src={require("../../assets/img/Home/Services/6.png")}
+              src={require("../../assets/img/Home/Services/Todo.png")}
               alt='Logo6'
               className='service-logo'
             />
