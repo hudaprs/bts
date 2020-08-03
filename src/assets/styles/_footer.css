@@ -21,16 +21,22 @@
   height: 40px;
 }
 
-#footer .footer-blog .footer-blog-img {
-  width: 80px;
-  height: 72px;
-  margin-bottom: 10px;
-  border-radius: 2px;
-  margin-right: 15px;
-}
-
 #footer .footer-blog-item {
   display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+#footer .footer-blog-item .footer-blog-desc {
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#footer .footer-blog-item .footer-blog-img {
+  width: 80px;
+  height: 72px;
 }
 
 #footer .footer-blog-date {
@@ -45,6 +51,8 @@
   width: 322px;
   height: 32px;
   padding: 10px;
+  width: 65%;
+  border-radius: 4px;
 }
 
 #footer .footer-input:focus {

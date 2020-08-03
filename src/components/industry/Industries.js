@@ -1,9 +1,9 @@
 import React, { useEffect } from "react"
 import MainLayout from "../layouts/MainLayout"
-import HeroIndustry from "./HeroIndustry"
+import IndustryShowcase from "./IndustryShowcase"
 import Solution from "./Solution"
 import WhatWeDo from "./WhatWeDo"
-import WhatWeOffer from "./WhatWeOffer";
+import WhatWeOffer from "./WhatWeOffer"
 
 const Industries = () => {
   useEffect(() => {
@@ -12,7 +12,7 @@ const Industries = () => {
 
   return (
     <MainLayout>
-      <HeroIndustry />
+      <IndustryShowcase />
       <Solution />
       <WhatWeDo />
       <WhatWeOffer />

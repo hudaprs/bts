@@ -6,22 +6,48 @@ const TechExpertise = () => {
       <div className='container'>
         <div className='grid-col-2'>
           <div>
-            <div
-              className='tech-expertise-header'
-              style={{
-                display: "flex",
-                alignItems: "center"
-              }}
+            <h3
+              className='m-heading heading-with-line'
+              style={{ position: "relative" }}
             >
-              <h3 className='m-heading mb-4' style={{ width: "100%" }}>
-                Tech <strong>Expertise</strong>
-              </h3>
+              Tech <strong>Expertise</strong>
               <div
                 className='line'
-                style={{ width: "60%", marginBottom: "30px" }}
-              ></div>
-            </div>
-            <p className='lead text-justify mb-2'>
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  right: 0,
+                  width: "35%"
+                }}
+              >
+                {/* Left Dot */}
+                <div
+                  style={{
+                    position: "absolute",
+                    height: "9px",
+                    width: "9px",
+                    borderRadius: "50%",
+                    backgroundColor: "#B22026",
+                    bottom: -5,
+                    left: -5
+                  }}
+                ></div>
+
+                {/* Right Dot */}
+                <div
+                  style={{
+                    position: "absolute",
+                    height: "9px",
+                    width: "9px",
+                    borderRadius: "50%",
+                    backgroundColor: "#B22026",
+                    bottom: -5,
+                    right: -5
+                  }}
+                ></div>
+              </div>
+            </h3>
+            <p className='lead text-justify mt-2'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

@@ -1,9 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "react-router-dom"
 
 const Navbar = () => {
+  const [navExpand, setNavExpand] = useState(false)
+
   return (
-    <div id='navbar'>
+    <div id='navbar' className={navExpand ? "expand" : ""}>
       <div className='container'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo'>
@@ -14,7 +16,7 @@ const Navbar = () => {
             />
           </Link>
 
-          <ul className='nav-item'>
+          <ul className='nav-item nav-item-responsive'>
             <li>
               <Link to='/services'>Services</Link>
             </li>

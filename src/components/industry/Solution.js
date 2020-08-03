@@ -2,7 +2,7 @@ import React from "react"
 
 const Solution = () => {
   return (
-    <section id='solution' className='mb-4'>
+    <section id='solution' className='py-4'>
       <div className='container'>
         <div className='grid-col-2'>
           <div>

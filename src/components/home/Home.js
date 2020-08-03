@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 
 // Components
 import MainLayout from "../layouts/MainLayout"
-import HeroHome from "./HeroHome"
+import HomeShowcase from "./HomeShowcase"
 import Services from "./Services"
 import TechExpertise from "./TechExpertise"
 import Companies from "./Companies"
@@ -15,7 +15,7 @@ const Home = ({ location }) => {
 
   return (
     <MainLayout location={location}>
-      <HeroHome />
+      <HomeShowcase />
       <Services />
       <TechExpertise />
       <Companies />

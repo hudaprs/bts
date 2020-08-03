@@ -2,7 +2,7 @@ import React from "react"
 
 const Services = () => {
   return (
-    <section id='services' className='my-8 py-4'>
+    <section id='services' className='py-4'>
       <div className='container'>
         <div className='services-content'>
           <div className='box-container item-1'>
@@ -30,12 +30,12 @@ const Services = () => {
             <p className='lead'>Management Consulting & Business Services</p>
           </div>
           <div className='services-title'>
-            <p className='m-heading mb-3'>
+            <h3 className='m-heading mb-3'>
               Our <strong>Services</strong>
-            </p>
-            <button type='button' className='btn btn-primary btn-md'>
+            </h3>
+            <a type='button' className='btn btn-primary'>
               Know More
-            </button>
+            </a>
           </div>
           <div className='box-container item-4'>
             <img

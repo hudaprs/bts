@@ -1,21 +1,32 @@
 /* Services */
 #services .services-content {
   display: grid;
-  grid-template-areas: "item-1 . item-4" "item-2 content item-5" "item-3 . item-6";
+  grid-template-areas:
+    "item-1 . item-4"
+    "item-2 content item-5"
+    "item-3 . item-6";
   grid-gap: 4rem;
   margin-bottom: 20px;
   align-items: center;
 }
 
 #services .box-container {
-  width: 100%;
-  border: 5px #fff solid;
-  width: 325px;
-  height: 144px;
-  border-radius: 8px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
+  border: 3px #fff solid;
+  border-radius: 5px;
+  width: 325px;
+  height: 144px;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#services .box-container .lead,
+#services .box-container .btn,
+#services h3 {
+  text-align: center !important;
 }
 
 #services .item-1 {
@@ -124,16 +135,6 @@
 }
 
 /* Blog */
-#blog .blog-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-#blog .blog-header .header-title {
-  width: 60%;
-}
-
 #blog .blog-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

@@ -36,33 +36,39 @@ const Footer = () => {
                 alt='Footer1'
                 className='footer-blog-img'
               />
-              <div>
+              <div className='footer-blog-desc'>
                 <h4 className='footer-blog-title'>
                   Aplikasi ERP Pada Rumah Sakit
                 </h4>
-                <p className='lead mt-2'>20 March 2020</p>
+                <p className='lead'>20 March 2020</p>
               </div>
             </div>
+
             <div className='footer-blog-item'>
               <img
                 src={require("../../../assets/img/Home/Blog/Blog2.png")}
                 alt='Footer2'
                 className='footer-blog-img'
               />
-              <div>
-                <h4>Aplikasi ERP Pada Rumah Sakit</h4>
-                <p className='lead mt-2'>20 March 2020</p>
+              <div className='footer-blog-desc'>
+                <h4 className='footer-blog-title'>
+                  Aplikasi ERP Pada Rumah Sakit
+                </h4>
+                <p className='lead'>20 March 2020</p>
               </div>
             </div>
+
             <div className='footer-blog-item'>
               <img
                 src={require("../../../assets/img/Home/Blog/Blog3.png")}
                 alt='Footer3'
                 className='footer-blog-img'
               />
-              <div>
-                <h4>Aplikasi ERP Pada Rumah Sakit</h4>
-                <p className='lead mt-2'>20 March 2020</p>
+              <div className='footer-blog-desc'>
+                <h4 className='footer-blog-title'>
+                  Aplikasi ERP Pada Rumah Sakit
+                </h4>
+                <p className='lead'>20 March 2020</p>
               </div>
             </div>
           </div>
@@ -70,20 +76,25 @@ const Footer = () => {
           <div>
             <h3 className='footer-title mb-1'>News Letter</h3>
             <form>
-              <div style={{ width: "100%" }}>
+              <div
+                style={{
+                  position: "relative"
+                }}
+              >
                 <input
                   type='text'
                   className='footer-input'
                   placeholder='Your email address'
                 />
-                <input
-                  type='submit'
-                  className='btn btn-md btn-primary'
-                  value='Subscribe'
-                  style={{
-                    marginLeft: "-150px"
-                  }}
-                />
+                <div style={styles.btnFooterContainer}>
+                  <button
+                    type='submit'
+                    className='btn btn-primary'
+                    style={styles.btnFooter}
+                  >
+                    Subscribe
+                  </button>
+                </div>
               </div>
             </form>
           </div>
@@ -110,6 +121,22 @@ const Footer = () => {
       </div>
     </footer>
   )
+}
+
+const styles = {
+  btnFooterContainer: {
+    backgroundColor: "#fff",
+    height: "100%",
+    position: "absolute",
+    top: 0,
+    right: 0,
+    borderTopRightRadius: "4px",
+    borderBottomRightRadius: "4px"
+  },
+  btnFooter: {
+    marginTop: "8px",
+    marginRight: "5px"
+  }
 }
 
 export default Footer

@@ -41,8 +41,14 @@ ul {
   list-style: none;
 }
 
-/* Hero */
-.hero::before {
+/* Showcase */
+.showcase {
+  color: #fff;
+  padding: 32px;
+  position: relative;
+}
+
+.showcase::before {
   content: "";
   position: absolute;
   top: 0;
@@ -56,22 +62,29 @@ ul {
   );
 }
 
-.hero * {
-  z-index: 10;
-}
-
-.hero .content {
-  display: flex;
-  flex-direction: column;
+.showcase .showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  height: 100%;
-  padding: 0px 20px;
+  align-items: center;
+  height: 100vh;
 }
 
-.hero .text {
+.showcase .showcase-content {
+  z-index: 1;
+}
+
+.showcase .showcase-content h1 {
+  font-size: 60px;
+  font-family: "Aller-Bold";
+}
+
+.showcase .showcase-content p {
+  font-size: 18px;
   font-family: "Aller-Regular";
   font-weight: normal;
   line-height: 2;
+  margin-bottom: 1rem;
 }
 
 @import "./_navbar.css";
@@ -80,4 +93,4 @@ ul {
 @import "./_grid.css";
 @import "./_home.css";
 @import "./_industries.css";
-@Import "./_mobile.css";
+@import "./_mobile.css";

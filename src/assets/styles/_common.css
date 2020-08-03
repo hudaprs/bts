@@ -78,28 +78,15 @@
 
 /* Buttons */
 .btn {
-  display: inline-block;
-  cursor: pointer;
-  color: black;
-  padding: 10px;
-  border: none;
-  text-transform: uppercase;
-  background-color: #f4f4f4;
   font-family: "Aller-Bold";
-  font-size: 14px;
-  border-radius: 4px;
-  transition: 1s;
-}
-
-.btn-sm {
-  height: 26px;
-  width: 99px;
-  font-size: 10px;
-}
-
-.btn-md {
-  width: 146px;
-  height: 40px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
 }
 
 .btn-primary {
@@ -110,10 +97,6 @@
 .btn-secondary {
   background-color: var(--secondary-color);
   color: var(--light-color);
-}
-
-.btn-primary:hover {
-  opacity: 0.8;
 }
 
 /* Line */
