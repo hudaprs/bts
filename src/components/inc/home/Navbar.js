@@ -42,7 +42,6 @@ const Navbar = () => {
         transform: `translateY(${translateY})`,
         backgroundColor: `${navTop ? "transparent" : "#171717"}`
       }}
-      onClick={() => setExpandNav(!expandNav)}
     >
       <div className='container'>
         <div className='navbar-container'>
@@ -55,7 +54,7 @@ const Navbar = () => {
           </Link>
 
           {/* Icon Bars For Mobile */}
-          <em className='fas fa-bars fa-2x icon-nav-sm'></em>
+          <em className='fas fa-bars fa-2x icon-nav-sm' onClick={() => setExpandNav(!expandNav)}></em>
 
           <ul className='nav-item'>
             <li className={location === "services" ? "current" : ""}>

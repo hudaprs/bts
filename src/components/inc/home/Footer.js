@@ -86,10 +86,10 @@ const Footer = () => {
                   className='footer-input'
                   placeholder='Your email address'
                 />
-                <div style={styles.btnFooterContainer}>
+                <div style={styles.btnFooterContainer} className='btn-footer-container-sm'>
                   <button
                     type='submit'
-                    className='btn btn-primary'
+                    className='btn btn-primary btn-footer'
                     style={styles.btnFooter}
                   >
                     Subscribe

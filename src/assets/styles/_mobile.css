@@ -1,14 +1,14 @@
 @media (max-width: 320px) {
-  .showcase .showcase-content h1 {
-    font-size: 42px !important;
+  .showcase .showcase-container h1 {
+    font-size: 40px !important;
   }
 
-  .showcase .showcase-content p {
+  .showcase .showcase-container p {
     display: none;
   }
-}
+} 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   /* Common */
   .grid-col-2,
   .grid-col-3 {
@@ -232,9 +232,6 @@
     display: none;
   }
 
-  #what-we-offer {
-  }
-
   /* Footer */
   #footer .footer-content {
     grid-template-columns: 1fr;
@@ -251,5 +248,51 @@
   #footer .footer-info .footer-info-text {
     text-align: center;
     margin-bottom: 10px;
+  }
+}
+
+/* Landspace */
+@media screen and (orientation:landscape) and (max-device-width: 580px) {
+  #navbar.nav-expand .nav-item {
+    margin: 0;
+    margin-top: 20%;
+    overflow: scroll;
+  }
+
+  #navbar.nav-expand .nav-item a {
+    font-size: 14px;
+  }
+
+  .showcase .showcase-container .border-vertical,
+  .showcase .showcase-container .border-horizontal {
+    display: none;
+  }
+
+  .showcase .showcase-container .showcase-content {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .showcase .showcase-container h1 {
+    margin-left: auto;
+  }
+
+  .showcase .showcase-container p {
+    display: none;
+  }
+
+  #footer .footer-input {
+    width: 78%;
+  }
+
+  #footer .btn-footer-container-sm {
+    width: 22%;
+  }
+
+  #footer .btn-footer {
+    position: absolute;
+    left: 10px;
   }
 }
