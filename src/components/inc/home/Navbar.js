@@ -6,7 +6,9 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false)
   const [navTop, setNavTop] = useState(true)
   const [translateY, setTranslateY] = useState("0px")
+  const [expandNav, setExpandNav] = useState(false)
 
+  // Make animation to navbar when scrolling
   const onScroll = () => {
     if (window.pageYOffset > 100) {
       setNavTop(false)
@@ -28,15 +30,19 @@ const Navbar = () => {
     window.addEventListener("scroll", onScroll)
 
     return () => window.removeEventListener("scroll", onScroll)
+
+    // eslint-disable-next-line
   }, [scrolled, navTop, translateY])
 
   return (
     <div
       id='navbar'
-      className={`${navTop ? "top" : ""}`}
+      className={expandNav ? "nav-expand" : ""}
       style={{
-        transform: `translateY(${translateY})`
+        transform: `translateY(${translateY})`,
+        backgroundColor: `${navTop ? "transparent" : "#171717"}`
       }}
+      onClick={() => setExpandNav(!expandNav)}
     >
       <div className='container'>
         <div className='navbar-container'>
@@ -48,7 +54,10 @@ const Navbar = () => {
             />
           </Link>
 
-          <ul className='nav-item nav-item-responsive'>
+          {/* Icon Bars For Mobile */}
+          <em className='fas fa-bars fa-2x icon-nav-sm'></em>
+
+          <ul className='nav-item'>
             <li className={location === "services" ? "current" : ""}>
               <Link to='/services'>Services</Link>
             </li>

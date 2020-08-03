@@ -15,7 +15,7 @@ const FeaturedServices = () => {
               alt='Comprehensive'
               className='featured-service-logo'
             />
-            <div className='mb-2'>
+            <div className='box-title mb-2'>
               <h3>Comprehensive IT</h3>
               <h3>Manage Service</h3>
             </div>
@@ -38,7 +38,7 @@ const FeaturedServices = () => {
               alt='Development'
               className='featured-service-logo'
             />
-            <div className='mb-2'>
+            <div className='box-title mb-2'>
               <h3>Web & Mobile</h3>
               <h3>Development</h3>
             </div>
@@ -61,7 +61,7 @@ const FeaturedServices = () => {
               alt='cloud'
               className='featured-service-logo'
             />
-            <div className='mb-2'>
+            <div className='box-title mb-2'>
               <h3>Cloud Integration</h3>
             </div>
             <p className='box-text mb-2'>
@@ -83,7 +83,7 @@ const FeaturedServices = () => {
               alt='Business'
               className='featured-service-logo'
             />
-            <div className='mb-2'>
+            <div className='box-title mb-2'>
               <h3>Business</h3>
               <h3>Intelligence, Big Data</h3>
             </div>
@@ -106,7 +106,7 @@ const FeaturedServices = () => {
               alt='Management'
               className='featured-service-logo'
             />
-            <div className='mb-2'>
+            <div className='box-title mb-2'>
               <h3>Management</h3>
               <h3>Consulting & Business Services</h3>
             </div>
@@ -129,8 +129,7 @@ const FeaturedServices = () => {
               alt='Listen'
               className='featured-service-logo'
             />
-            <h3 className='mb-2'> </h3>
-            <div className='mb-2'>
+            <div className='box-title mb-2'>
               <h3>More than What</h3>
               <h3>Listed</h3>
             </div>

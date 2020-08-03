@@ -6,7 +6,7 @@ const Solution = () => {
       <div className='container'>
         <div className='grid-col-2'>
           <div>
-            <h3 className='m-heading mb-4' style={{ width: "100%" }}>
+            <h3 className='m-heading mb-4'>
               Our Solution as <strong>System Integrator</strong>
             </h3>
             <p className='lead text-justify mb-2'>

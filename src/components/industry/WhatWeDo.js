@@ -10,7 +10,7 @@ const WhatWeDo = () => {
         </h3>
 
         <ul className='menu-list mb-4'>
-          <li className='current'>
+          <li className='active'>
             <Link to='#!'>Manufacturing</Link>
           </li>
           <li className=''>

@@ -6,18 +6,16 @@
   top: 0;
   z-index: 55;
   transition: 0.5s;
-  background-color: #171717;
   opacity: 0.8;
   transition: 0.5s;
 }
 
-#navbar.top {
-  background-color: transparent;
+#navbar .icon-nav-sm {
+  display: none;
 }
 
 #navbar .navbar-logo {
   cursor: pointer;
-  align-self: center;
 }
 
 #navbar .navbar-container {

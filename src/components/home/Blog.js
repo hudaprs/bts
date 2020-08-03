@@ -56,7 +56,7 @@ const Blog = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <a href='#!' className='btn btn-md btn-primary'>
+            <a href='#!' className='btn  btn-primary'>
               Read More
             </a>
           </div>
@@ -74,7 +74,7 @@ const Blog = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <a href='#!' className='btn btn-md btn-primary'>
+            <a href='#!' className='btn  btn-primary'>
               Read More
             </a>
           </div>
@@ -92,7 +92,7 @@ const Blog = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <a href='#!' className='btn btn-md btn-primary'>
+            <a href='#!' className='btn  btn-primary'>
               Read More
             </a>
           </div>

@@ -6,10 +6,7 @@ const TechExpertise = () => {
       <div className='container'>
         <div className='grid-col-2'>
           <div>
-            <h3
-              className='m-heading heading-with-line'
-              style={{ position: "relative" }}
-            >
+            <h3 className='m-heading' style={{ position: "relative" }}>
               Tech <strong>Expertise</strong>
               <div
                 className='line'

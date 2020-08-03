@@ -3,7 +3,11 @@ import HomeShowcaseImage from "../../assets/img/Home/Showcase.png"
 
 const HomeShowcase = () => {
   return (
-    <header className='showcase' style={styles.showcaseBackgroundImage}>
+    <header
+      className='showcase'
+      style={styles.showcaseBackgroundImage}
+      id='home-showcase'
+    >
       <div className='container'>
         <div className='showcase-container'>
           <div className='showcase-content'>
@@ -31,7 +35,7 @@ const HomeShowcase = () => {
             </a>
 
             {/* Mouse Icon */}
-            <div style={styles.scrollToView}>
+            <div style={styles.scrollToView} className='scroll-to-view'>
               <img
                 src={require("../../assets/img/MouseIcon.svg")}
                 alt='Mouse'
