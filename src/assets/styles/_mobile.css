@@ -28,32 +28,30 @@
     font-size: 14px;
   }
 
-  /* Navbar */
+  #navbar .bars {
+    display: block;
+  }
+
   #navbar .nav-item {
     display: none;
   }
 
-  #navbar .icon-nav-sm {
-    display: block;
-  }
-
-  #navbar.nav-expand {
-    background-color: rgba(23, 23, 23, 1) !important;
-    height: 100vh;
-    transition: 0.5s;
-  }
-
-  #navbar.nav-expand .nav-item {
+  #navbar .nav-item {
     position: absolute;
-    display: block;
-    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(100%);
+    width: 100%;
     left: 0;
-    bottom: 0;
-    right: 0;
-    text-align: center;
+    top: 90px;
+    background-color: rgba(23, 23, 23, .5);
+    height: 100vh;
     transition: 1s;
-    transition-delay: 1s;
-    margin-top: 40%;
+  }
+
+  #navbar .nav-item-active {
+    transform: translateY(0%);
   }
 
   #navbar .nav-item li {

@@ -3,25 +3,19 @@ import { Link } from "react-router-dom"
 
 const Navbar = () => {
   const location = window.location.href.split("/")[3]
-  const [scrolled, setScrolled] = useState(false)
   const [navTop, setNavTop] = useState(true)
+  const [navItemActive, setNavItemActive] = useState(false)
   const [translateY, setTranslateY] = useState("0px")
-  const [expandNav, setExpandNav] = useState(false)
 
   // Make animation to navbar when scrolling
   const onScroll = () => {
     if (window.pageYOffset > 100) {
       setNavTop(false)
-      if (!scrolled) {
-        setTranslateY("-70px")
-      }
       setTimeout(() => {
         setTranslateY("0")
-        setScrolled(true)
       }, 200)
     } else {
       setNavTop(true)
-      setScrolled(false)
     }
   }
 
@@ -30,17 +24,15 @@ const Navbar = () => {
     window.addEventListener("scroll", onScroll)
 
     return () => window.removeEventListener("scroll", onScroll)
-
     // eslint-disable-next-line
-  }, [scrolled, navTop, translateY])
+  }, [navTop, translateY])
 
   return (
     <div
       id='navbar'
-      className={expandNav ? "nav-expand" : ""}
       style={{
         transform: `translateY(${translateY})`,
-        backgroundColor: `${navTop ? "transparent" : "#171717"}`
+        backgroundColor: `${navTop ? "rgba(23, 23, 23, .5)" : "#171717"}`
       }}
     >
       <div className='container'>
@@ -54,9 +46,9 @@ const Navbar = () => {
           </Link>
 
           {/* Icon Bars For Mobile */}
-          <em className='fas fa-bars fa-2x icon-nav-sm' onClick={() => setExpandNav(!expandNav)}></em>
+          <em className='fas fa-bars fa-2x bars' onClick={() => setNavItemActive(!navItemActive)}></em>
 
-          <ul className='nav-item'>
+          <ul className={`nav-item ${navItemActive ? 'nav-item-active' : ''}`}>
             <li className={location === "services" ? "current" : ""}>
               <Link to='/services'>Services</Link>
             </li>

@@ -4,13 +4,13 @@
   height: 90px;
   position: fixed;
   top: 0;
-  z-index: 55;
+  z-index: 100;
   transition: 0.5s;
   opacity: 0.8;
   transition: 0.5s;
 }
 
-#navbar .icon-nav-sm {
+#navbar .bars {
   display: none;
 }
 
