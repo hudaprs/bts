@@ -33,7 +33,7 @@ const Services = () => {
             <h3 className='m-heading mb-3'>
               Our <strong>Services</strong>
             </h3>
-            <a type='button' className='btn btn-primary'>
+            <a href='#!' className='btn btn-primary'>
               Know More
             </a>
           </div>
