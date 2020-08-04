@@ -256,12 +256,12 @@
   }
 
   #footer .btn-footer {
-    left: 0px !important;
+    left: 5px !important;
   }
 }
 
 /* Landspace */
-@media screen and (max-device-height: 375px) {
+@media screen and (max-height: 375px) {
   /* Common */
   .grid-col-2 {
     grid-template-columns: 1fr;
@@ -384,5 +384,13 @@
   }
   #navbar .nav-item {
     margin-top: 20px;
+  }
+}
+
+/* Iphone X */
+@media screen and (min-width: 375px) {
+  #footer .btn-footer {
+    position: absolute !important;
+    left: 20px !important;
   }
 }
