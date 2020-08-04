@@ -7,7 +7,6 @@
   z-index: 100;
   transition: 0.5s;
   opacity: 0.8;
-  transition: 0.5s;
 }
 
 #navbar .bars {
@@ -29,6 +28,7 @@
 #navbar .nav-item {
   display: flex;
   flex-direction: row;
+  overflow: hidden !important;
 }
 
 #navbar .nav-item .current {

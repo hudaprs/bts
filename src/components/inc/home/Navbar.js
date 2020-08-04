@@ -46,9 +46,17 @@ const Navbar = () => {
           </Link>
 
           {/* Icon Bars For Mobile */}
-          <em className='fas fa-bars fa-2x bars' onClick={() => setNavItemActive(!navItemActive)}></em>
+          <em
+            className='fas fa-bars fa-2x bars'
+            onClick={() => setNavItemActive(!navItemActive)}
+          ></em>
 
-          <ul className={`nav-item ${navItemActive ? 'nav-item-active' : ''}`}>
+          <ul
+            className={`nav-item ${navItemActive ? "nav-item-active" : ""}`}
+            style={{
+              backgroundColor: `${navTop ? "" : "#171717"}`
+            }}
+          >
             <li className={location === "services" ? "current" : ""}>
               <Link to='/services'>Services</Link>
             </li>
