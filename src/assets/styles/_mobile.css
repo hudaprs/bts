@@ -388,9 +388,33 @@
 }
 
 /* Iphone X */
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
   #footer .btn-footer {
     position: absolute !important;
     left: 20px !important;
   }
 }
+
+/* Iphone 5 - Potrait */
+@media screen and (max-width: 320px) {
+  #footer .btn-footer {
+    left: 5px !important;
+  }
+}
+
+/* Iphone 5 - Landscape */
+@media screen and (max-height: 320px) {
+  #footer .footer-input {
+    width: 95% !important;
+  }
+
+  #footer .btn-footer-container-sm {
+    width: 15%;
+  } 
+
+  #footer .btn-footer {
+    left: 20px !important;
+  } 
+}
+
+
