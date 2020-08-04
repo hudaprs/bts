@@ -28,7 +28,6 @@
 #navbar .nav-item {
   display: flex;
   flex-direction: row;
-  overflow: hidden !important;
 }
 
 #navbar .nav-item .current {
