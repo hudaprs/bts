@@ -32,7 +32,9 @@ const Navbar = () => {
       id='navbar'
       style={{
         transform: `translateY(${translateY})`,
-        backgroundColor: `${navTop ? "rgba(23, 23, 23, .5)" : "#171717"}`
+        backgroundColor: `${
+          navTop ? "rgba(23, 23, 23, .1)" : "rgba(23, 23, 23, 0.5)"
+        }`
       }}
     >
       <div className='container'>
@@ -51,12 +53,7 @@ const Navbar = () => {
             onClick={() => setNavItemActive(!navItemActive)}
           ></em>
 
-          <ul
-            className={`nav-item ${navItemActive ? "nav-item-active" : ""}`}
-            style={{
-              backgroundColor: `${navTop ? "" : "#171717"}`
-            }}
-          >
+          <ul className={`nav-item ${navItemActive ? "nav-item-active" : ""}`}>
             <li className={location === "services" ? "current" : ""}>
               <Link to='/services'>Services</Link>
             </li>
